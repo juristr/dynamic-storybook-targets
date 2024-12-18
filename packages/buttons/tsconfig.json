@@ -1,15 +1,18 @@
 {
   "compilerOptions": {
     "target": "es2018",
-    "module": "commonjs",
+    "module": "esnext",
+    "moduleResolution": "node",
     "jsx": "react",
     "declaration": true,
     "outDir": "./dist",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "allowJs": true,
+    "resolveJsonModule": true
   },
-  "include": ["src"],
+  "include": ["src", ".storybook"],
   "exclude": ["node_modules", "dist"]
 } 
