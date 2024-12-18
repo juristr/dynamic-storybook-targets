@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
-    "storybook": "storybook dev -p 6008",
+    "storybook": "storybook dev",
     "build-storybook": "storybook build"
   },
   "dependencies": {
