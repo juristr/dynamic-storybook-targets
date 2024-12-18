@@ -1,6 +1,7 @@
 {
   "name": "dynamic-storybook-targets",
   "version": "1.0.0",
+  "type": "module",
   "private": true,
   "scripts": {
     "build": "pnpm -r build",
@@ -8,13 +9,18 @@
     "lint": "pnpm -r lint"
   },
   "devDependencies": {
+    "@nx/devkit": "20.2.2",
+    "@types/node": "18.16.9",
     "@types/react": "^18.2.45",
     "@types/react-dom": "^18.2.18",
-    "typescript": "^5.3.3",
-    "nx": "20.2.2"
+    "nx": "20.2.2",
+    "start-server-and-test": "^1.15.0",
+    "tslib": "^2.3.0",
+    "typescript": "^5.3.3"
   },
   "engines": {
     "node": ">=16",
     "pnpm": ">=8"
-  }
+  },
+  "dependencies": {}
 }
