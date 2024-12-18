@@ -5,6 +5,7 @@ This is a demo project to show how to use the Nx Inference API to dynamically al
 ## More info
 
 - [Blog: Avoiding Port Conflicts with Multiple Storybook Instances](https://nx.dev/blog/dynamic-targets-with-inference-tasks)
+- [Video: Port Clashes? In a Monorepo? Here's how to fix it!](https://youtu.be/v0lSEYPjgOs)
 - [Nx Docs: Infer Tasks or Projects](https://nx.dev/extending-nx/recipes/project-graph-plugins)
 
 ## Running the project
