@@ -11,6 +11,5 @@
       "inputs": ["default", "^default"]
     }
   },
-  "plugins": ["./tools/storybook.ts"],
   "defaultBase": "main"
 }

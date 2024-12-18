@@ -7,7 +7,8 @@
     "build": "tsc",
     "dev": "tsc --watch",
     "storybook": "storybook dev",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "test-storybook": "start-server-and-test 'storybook dev --port 3000 --no-open' http://localhost:3000 'test-storybook --index-json --url=http://localhost:3000'"
   },
   "dependencies": {
     "react": "^18.2.0",
